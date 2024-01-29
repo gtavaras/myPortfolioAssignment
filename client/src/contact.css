@@ -1,0 +1,132 @@
+/*
+File name: contact.css
+Student’s Name: Gisella Tavara
+StudentID: 301350493
+Date: Jan, 28th 2024
+*/
+
+/*attributes for all containers, title, description, forms and images*/
+#cont {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.contTitle{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+    text-align: center;
+    color:orange;
+}
+
+.contText{
+    font-size:1.5rem;
+    font-weight: 200;
+    padding-top:orem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+
+#form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#icons
+{
+    display: flex;
+    flex-direction: row;
+    cursor:pointer;
+    justify-content: center;
+}
+
+.phone
+{
+    padding: 1rem;
+}
+
+.facebook
+{   
+    padding: 1rem;
+}
+
+.instagram
+{
+    padding: 1rem;
+}
+
+.linkedin
+{
+    padding: 1rem;
+}
+
+#ffp{
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+label{
+    font-size:large;
+}
+
+input{
+    font-size: medium;
+    width: 500px;
+}
+
+.submit{
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+    cursor:pointer;
+}
+
+.contactInfo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.contactDetail
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.infoIcon
+{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+.infoDetail
+{
+    justify-content: center;
+}
+
+p,a{
+    font-size:x-large;
+    text-align: center;
+}
+

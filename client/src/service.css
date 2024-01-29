@@ -1,0 +1,69 @@
+
+/*
+File name: service.css
+Student’s Name: Gisella Tavara
+StudentID: 301350493
+Date: Jan, 28th 2024
+*/
+
+/*attributes or styles for all containers, title, description, forms and icons of the Service page*/
+#contService {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.serviceContent
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.serviceTitle{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+    text-align: center;
+    color:orange;
+}
+
+.serviceDesc{
+    font-size:1.5rem;
+    font-weight: 200;
+    padding-top:orem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+
+.contServiceList
+{
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+.serviceIcon 
+{
+    padding-left: 2rem;
+}
+
+.serviceList
+{
+    font-size:1.5rem;
+    font-weight: 200;
+    padding-top:orem;
+    padding-left:2rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+

@@ -1,0 +1,67 @@
+/*
+File name: home.css
+Student’s Name: Gisella Tavara
+StudentID: 301350493
+Date: Jan, 28th 2024
+*/
+
+/*attributes or styles for all sections, texts, button in the home page*/
+html{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#intro {
+    height: calc(80vh - 4em);
+    width: 70vw;
+    max-width: 75em;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .introContent {
+    text-align: center;
+  }
+  
+  .introName {
+    font-size: 4em;
+    color:orange;
+  }
+  
+  .introText {
+    font-size: 2.0em;
+  }
+  
+  .introSlogan 
+  {
+    font-size: 1.2em;
+  }
+
+ 
+  .btnContact {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+
+  .btnContact a
+  {
+    padding:30px;
+    width: 140px;
+    height: 10px;
+    background-color: orange;
+    cursor:pointer;
+    text-align: center;
+    display:inline-block;
+    border-radius: 10px;
+    border:1px solid black;
+    color: white;
+
+  }

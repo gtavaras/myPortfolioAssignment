@@ -1,0 +1,63 @@
+/*
+File name: about.css
+Student’s Name: Gisella Tavara
+StudentID: 301350493
+Date: Jan, 28th 2024
+*/
+
+/*Defines the attributes for the main container for the about page*/
+#skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+/*section inside the skill that should contain the information organized as a column*/
+.aboutContent
+{
+    display:flex;
+    flex-direction: column;
+}
+
+/*section inside the skill that set the attributes for the titles within the page.*/
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+    text-align: left;
+    color:orange;
+}
+
+/*section inside the skill that set the attributes for all descriptions within the page.*/
+.skillDesc{
+    font-size:1.5rem;
+    font-weight: 200;
+    padding-top:orem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+
+/*section inside the skill that set the attribute for the profile photo.*/
+.photo 
+{
+    padding-right: 2rem;
+}
+
+/*section inside the skill that set the attributes for the btnAbout.*/
+.btnAbout{
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    padding:20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  
